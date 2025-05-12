@@ -22,6 +22,7 @@ const MAPPING = {
   "chevron.left.forwardslash.chevron.right": "code",
   "chevron.right": "chevron-right",
   "testtube.2": "science",
+  "square.and.arrow.up": "share",
 } as const;
 
 /**

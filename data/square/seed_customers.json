@@ -1,0 +1,18 @@
+{
+  "customers": [
+    {
+      "given_name": "John",
+      "family_name": "Doe",
+      "email_address": "john.doe@example.com",
+      "phone_number": "+14155551234",
+      "reference_id": "SEED_CUSTOMER_1"
+    },
+    {
+      "given_name": "Jane",
+      "family_name": "Smith",
+      "email_address": "jane.smith@example.com",
+      "phone_number": "+14155556789",
+      "reference_id": "SEED_CUSTOMER_2"
+    }
+  ]
+} 

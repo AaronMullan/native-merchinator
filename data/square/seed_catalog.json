@@ -1,0 +1,90 @@
+{
+  "objects": [
+    {
+      "type": "ITEM",
+      "id": "#TShirt",
+      "present_at_all_locations": true,
+      "item_data": {
+        "name": "T-Shirt",
+        "description": "Comfortable cotton t-shirt",
+        "variations": [
+          {
+            "type": "ITEM_VARIATION",
+            "id": "#TShirt_Small",
+            "present_at_all_locations": true,
+            "item_variation_data": {
+              "item_id": "#TShirt",
+              "name": "Small",
+              "pricing_type": "FIXED_PRICING",
+              "price_money": {
+                "amount": 2000,
+                "currency": "USD"
+              },
+              "track_inventory": true,
+              "sku": "TS-S"
+            }
+          },
+          {
+            "type": "ITEM_VARIATION",
+            "id": "#TShirt_Medium",
+            "present_at_all_locations": true,
+            "item_variation_data": {
+              "item_id": "#TShirt",
+              "name": "Medium",
+              "pricing_type": "FIXED_PRICING",
+              "price_money": {
+                "amount": 2000,
+                "currency": "USD"
+              },
+              "track_inventory": true,
+              "sku": "TS-M"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ITEM",
+      "id": "#Hoodie",
+      "present_at_all_locations": true,
+      "item_data": {
+        "name": "Hoodie",
+        "description": "Warm and cozy hoodie",
+        "variations": [
+          {
+            "type": "ITEM_VARIATION",
+            "id": "#Hoodie_Small",
+            "present_at_all_locations": true,
+            "item_variation_data": {
+              "item_id": "#Hoodie",
+              "name": "Small",
+              "pricing_type": "FIXED_PRICING",
+              "price_money": {
+                "amount": 4000,
+                "currency": "USD"
+              },
+              "track_inventory": true,
+              "sku": "HD-S"
+            }
+          },
+          {
+            "type": "ITEM_VARIATION",
+            "id": "#Hoodie_Medium",
+            "present_at_all_locations": true,
+            "item_variation_data": {
+              "item_id": "#Hoodie",
+              "name": "Medium",
+              "pricing_type": "FIXED_PRICING",
+              "price_money": {
+                "amount": 4000,
+                "currency": "USD"
+              },
+              "track_inventory": true,
+              "sku": "HD-M"
+            }
+          }
+        ]
+      }
+    }
+  ]
+} 
